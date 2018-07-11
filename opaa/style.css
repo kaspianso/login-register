@@ -1,0 +1,357 @@
+body, html {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(bg/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.base {
+  top: 50%;
+  left: 50%;
+  width: 920px;
+  height: 420px;
+  transform: translate(-50%, 50%);
+  background-color: #0f1a2f;
+  opacity: 0.9;
+  z-index: 10;
+  position: relative;
+}
+
+.don-t-have {
+  padding-top: 25px;
+  padding-left: 80px;
+  padding-bottom: 151px;
+  padding-right: 565px;
+  width: 275px;
+  height: 194px;
+  color: #ffffff;
+  letter-spacing: 0.56px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+.d-on-t {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 35px;
+  margin-bottom: 3.5%;
+}
+
+.lorem-ipsum-dolor {
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 35px;
+  margin-bottom: auto;
+}
+
+.consectetur {
+  margin-top: auto;
+  font-weight: 900;
+  letter-spacing: 0.32px;
+  line-height: 30px;
+}
+
+.signupb{
+  margin: 0;
+  width: 140px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #49abfe;
+  background-color: rgba(15, 26, 47, 0.4);
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.signupb:hover{
+  background-color: rgba(73, 171, 254, 1);
+  color: #ffffff;
+}
+
+.viltusPoga{
+  margin: 0;
+  width: 140px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #49abfe;
+  background-color: rgba(15, 26, 47, 0.4);
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: none;
+}
+
+.have-account{
+  margin: 0;
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  top: 80px;
+  left: 560px;
+  bottom: 74px;
+  color: #ffffff;
+  letter-spacing: 0.56px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+
+}
+
+.do{
+  margin: 0;
+  color: #ffffff;
+  letter-spacing: 0.56px;
+  font-size: 28px;
+  margin-bottom: 3.5%;
+}
+
+.lorem{
+  font-size: 15px;
+  line-height: 35px;
+  color: #ffffff;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+
+.loginb2{
+  margin: 0;
+  width: 140px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #49abfe;
+  background-color: rgba(15, 26, 47, 0.4);
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.loginb2:hover{
+  background-color: rgba(73, 171, 254, 1);
+  color: #ffffff;
+}
+
+.viltusPoga2{
+  margin: 0;
+  width: 140px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #49abfe;
+  background-color: rgba(15, 26, 47, 0.4);
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: none;
+}
+
+/* Style for "bg" */
+.login {
+  top: 50%;
+  left: 50%;
+  width: 460px;
+  height: 460px;
+  margin-left: 210px;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0 0 140px rgba(50, 66, 91, 0.8);
+  z-index: 20;
+  position: relative;
+}
+
+.login-window{
+  margin: 0;
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  top: 73px;
+  left: 92px;
+  bottom: 94px;
+}
+
+.logo{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+}
+
+.bg-folds{
+  position: absolute;
+  top: -21px;
+  left: 430px;
+  width: 10px;
+  height: 462px;
+}
+
+.dark-fold{
+  position: absolute;
+  left: 431px;
+  width: 10px;
+  height: 420px;
+}
+
+.text-logo{
+  margin: 0;
+  width: 280px;
+  height: 26px;
+  color: #3e495e;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+  line-height: 35px;
+  margin-bottom: 6.5%;
+}
+.name{
+  margin: 3.5% 0;
+  width: 280px;
+  height: 18px;
+  color: #8495b7;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.32px;
+  appearance: none;
+
+}
+
+.email{
+  margin-top: 3.5%;
+  width: 280px;
+  height: 18px;
+  color: #8495b7;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.32px;
+  appearance: none;
+}
+
+
+.pwd{
+  margin-top: 3.5%;
+  width: 280px;
+  height: 18px;
+  color: #8495b7;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.32px;
+  appearance: none;
+
+}
+
+.ic-mail{
+  margin-top: 6%;
+
+}
+
+.ic-lock{
+  margin-top: 6%;
+
+}
+
+.ic-user{
+  margin-top: 6%;
+
+}
+
+.required{
+  display: inline-block;
+  color: #f44368;
+  margin-left: 4px;
+  font-size: 9px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.forgot{
+  margin-top: 12%;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  color: #8495b7;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.32px;
+}
+
+.forget-container{
+  background-color: black;
+}
+
+
+input[type=text] {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #cbd2df;
+}
+
+input[type=password] {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #cbd2df;
+}
+
+.loginb{
+  margin-top: 6.5%;
+  width: 140px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #f89a35;
+  background-color: #f89a35;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1.56px;
+}
+
+.sign-up{
+  margin-top: 6.5%;
+  width: 140px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #f89a35;
+  background-color: #f89a35;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1.56px;
+  display: none;
+}
+
+.footer-text{
+  text-align: center;
+  color: #a7b3cb;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1.56px;
+
+}
