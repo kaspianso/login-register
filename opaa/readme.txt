@@ -9,20 +9,3 @@ Diemzel vajag divas reizes ievadit epastu un paroli, lai notiktu sesija...
 			 testejot jaizmanto (epasts: testo@tester.te | parole: asdw123)
 		
 		2. Registracija - strada, tacu nav pilniba saderigs ar atorizesanas sistemu.
-
-		3. Attributes - strada.
-
-------------------
-
-
-The application was made on localhost server and it's copy files are available here.
-Unfortunately you have to login two times for the session to kick in...
-
-*Functionality:
-		1. Log in(with email and password) - kinda works. It works with already added user in the database, however it does not when attempting
-			to log in with newly created user, but this newly created user is being set in the database.
-			For testing purposes use (email: testo@tester.te | password: asdw123)
-		
-		2. Register - works, however is not fully compatable with the login system.
-
-		3. Attributes - Works.
