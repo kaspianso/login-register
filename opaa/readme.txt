@@ -1,6 +1,6 @@
 Autors/author: Ritvars Resnis
 
-Darba pieteikums MageBit.
+
 Darbs tika izstradats uz lokala servera un ta failu kopijas ir pieejamas seit.
 Diemzel vajag divas reizes ievadit epastu un paroli, lai notiktu sesija...
 
@@ -14,7 +14,7 @@ Diemzel vajag divas reizes ievadit epastu un paroli, lai notiktu sesija...
 
 ------------------
 
-Work application for MageBit.
+
 The application was made on localhost server and it's copy files are available here.
 Unfortunately you have to login two times for the session to kick in...
 
