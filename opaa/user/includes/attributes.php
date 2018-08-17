@@ -10,8 +10,8 @@
 			$name = $_POST['name'];
       $value = $_POST['value'];
 
-			$DB->query("ALTER TABLE attributes ADD ".$name." varchar(50) NOT NULL; ");
-			$DB->query("UPDATE attributes SET ".$name." = '$value'");
+			$DB->query("ALTER TABLE admin_users ADD ".$name." varchar(50) NOT NULL; ");
+			$DB->query("UPDATE admin_users SET ".$name." = '$value'");
 
 		}
 	?>
