@@ -4,7 +4,7 @@ class Users extends DB{
 
   protected function getAllUsers(){
 
-    $sql = ("SELECT * FROM admin_users INNER JOIN attributes ON admin_users.id = attributes.id WHERE `user` = '".$_SESSION['user']."' AND `pass` = '".$_SESSION['pass']."'");
+    $sql = ("SELECT * FROM admin_users  WHERE `user` = '".$_SESSION['user']."' AND `pass` = '".$_SESSION['pass']."'");
     $result = $this->connect()->query($sql);
     $numRows = $result->num_rows;
     if($numRows > 0){
